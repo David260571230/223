@@ -1,0 +1,40 @@
+/* https://cruise.umple.org/umpleonline/umple.php?model=20101217df3gfvjafwg */
+
+namespace ca.mcgill.ecse.flexibook.controller;
+
+class TOService {
+  name;
+  Integer duration;
+  Integer downtimeDuration;
+  Integer downtimeStart;
+}
+
+class TOServiceCombo {
+  name;
+  String mainService;
+  String[] services;
+  Integer[] serviceLengths;
+  String[] mandatoryServices;
+}
+
+class TOBusiness {
+  name;
+  address;
+  phoneNumber;
+  email;
+}
+
+class TOBusinessHour {
+  dayOfWeek;
+  startTime;
+  endTime;
+}
+
+class TOAppointment {
+username;
+serviceName;
+String[] services;
+startDate;
+startTime;
+}
+
